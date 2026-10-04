@@ -1,0 +1,26 @@
+
+> draftchain-research-prototype@1.0.0 test
+> hardhat test
+
+No contracts to compile
+
+Running Solidity tests
+
+
+Running Mocha tests
+
+
+  ManuscriptProvenance
+    ✔ creates a project with its owner and coauthors as members (489ms)
+    ✔ links revisions and records their submitter
+    ✔ rejects a stale parent hash instead of silently branching
+    ✔ rejects revision commits from nonmembers
+    ✔ records each member's contribution attestation once per revision
+    ✔ allows only the owner to add members
+
+
+  6 passing (612ms)
+
+
+6 passing (6 mocha)
+

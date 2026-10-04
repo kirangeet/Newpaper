@@ -1,0 +1,17 @@
+{
+  "name": "draftchain-research-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Blockchain provenance prototype for collaborative research manuscripts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "benchmark": "hardhat run scripts/benchmark.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "chai": "^6.3.0",
+    "hardhat": "^3.18.1"
+  }
+}
